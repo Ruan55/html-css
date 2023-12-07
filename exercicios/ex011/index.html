@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+
+<h1>Midias HTML</h1>
+
+<p>Teste de adaptação de imagens</p>
+
+<picture>
+    <!--Imagem pequena-->
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <!--Imagem media-->
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <!--Imagem Grande-->
+    <img src="imagens/foto-g.png" alt="imagen grande">
+
+</picture>
+
+<h1>Reproduzir audios</h1>
+
+<p>Teste para reprodução de audios</p>
+
+<!--Reproduzir audio-->
+<audio src="midia/Syn-Cole-Feel Good-NCS-CopyrightFreeMusic(128 kbps).mp3" controls></audio>
+    
+</body>
+</html>

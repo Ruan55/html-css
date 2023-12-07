@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a {
+
+            font-weight: bold;
+            
+
+        }
+
+        .Insta:active{
+
+            color: pink;
+
+        }
+
+        .Face:active{
+
+            color:red;
+
+        }
+
+        .TT:active{
+
+            color: greenyellow;
+
+        }
+
+        .Insta{
+
+            color: orange;
+
+        }
+        
+
+        .Face{
+
+            color: blue;
+
+        }
+
+        .TT{
+
+            color: aqua;
+
+        }
+
+        /*Exemplo de Pseudo-elementos*/
+        .Insta::before{
+
+            content: ' ➡️';
+
+        }
+
+        .Insta::after{
+
+            content: ' ⬅️';
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="https://www.instagram.com/kiorih55/" class="Insta" target="_blank">Instagram</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100015199489030&locale=pt_BR" class="Face" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com/MonkeyDSett" target="_blank" class="TT">Twitter</a></li>
+    </ul>
+    
+</body>
+</html>
