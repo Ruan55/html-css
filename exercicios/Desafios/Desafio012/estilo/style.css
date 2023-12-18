@@ -74,6 +74,27 @@ font-size: 3vw;
 
 }
 
+section#img1{
+
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section#img2{
+
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+
+}
+
+section > p{
+
+    padding-bottom: 10vh;
+
+}
+
 section.normal{
 
     background-color: white;
@@ -83,8 +104,11 @@ section.normal{
 section.imagem{
 
 
-background-color: rgba(0, 0, 0, 0.308);
+background-color: rgba(0, 0, 0, 0.144);
 color: white;
+text-shadow: 2px 2px 0px black;
+box-shadow: inset 2px 3px 20px 0px black;
+background-attachment: fixed;
 
 }
 
@@ -92,7 +116,7 @@ section.imagem > p{
 
 display: inline-block;
 padding: 5px;
-background-color: rgb(56, 56, 56);
+background-color: rgba(56, 56, 56, 0.603);
 
 }
 
